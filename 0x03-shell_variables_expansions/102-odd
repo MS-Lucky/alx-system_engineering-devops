@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR%2==1' newfile
+perl -ne 'print if $.%2==1'
